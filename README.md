@@ -9,7 +9,7 @@ https://nodejs.org/en
 C:\Users\me>node -v
 v18.16.0
 
-If you updated the version, close cmd, open it again and check if the new version was installed sucssesfully.
+If you updated the version, close cmd, open it again and check if the new version was installed successfully.
 
 ## Start Node on cmd terminal
 
@@ -35,9 +35,9 @@ Type ^C twice
 
 C:\Users\me>
 
+# Open VS Code directly from the cmd terminal
 
---------------------------------------------------------------
-Open VS Code directly from the cmd terminal
+Open cdm window, cd to the project folder and type 'code .'
 
 C:\>D:
 
