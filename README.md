@@ -1,4 +1,4 @@
-# nodejs-playground
+# Node.js Playground
 
 Node.js is a program written in C++. It wraps the V8 engine that lives in browsers that are capable to understand JavaScript. One great advantage using Node.js is its capability to share code between front and back end since they both use JavaScript. 
 
