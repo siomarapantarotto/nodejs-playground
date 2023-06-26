@@ -9,16 +9,16 @@ Node.js adds more features:
 -  Act as a server for content
 -  Etc
 
-# Content
+## Content
 
 - How to install Node & use it to run JavaScript
-- - How to install Node & use it to run JavaScript
-- - How to read & write files on the computer
-- - How to create a server using Node.jjs to create a website
-- - How to create an Express app / website
-- - How to use the NoSQL database MongDB
-- - How to use template engines to create HTML views
-- - How to put everything together to make a simple blog site
+- How to install Node & use it to run JavaScript
+- How to read & write files on the computer
+- How to create a server using Node.jjs to create a website
+- How to create an Express app / website
+- How to use the NoSQL database MongDB
+- How to use template engines to create HTML views
+- How to put everything together to make a simple blog site
 
 ## Install or update Node.js:
 
