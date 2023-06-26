@@ -1,5 +1,25 @@
 # nodejs-playground
 
+Node.js is a program written in C++. It wraps the V8 engine that lives in browsers that are capable to understand JavaScript. One great advantage using Node.js is its capability to share code between front and back end since they both use JavaScript. 
+
+Node.js adds more features:
+
+-  Read & write files on a computer
+-  Connect to a database
+-  Act as a server for content
+-  Etc
+
+# Content
+
+- How to install Node & use it to run JavaScript
+- - How to install Node & use it to run JavaScript
+- - How to read & write files on the computer
+- - How to create a server using Node.jjs to create a website
+- - How to create an Express app / website
+- - How to use the NoSQL database MongDB
+- - How to use template engines to create HTML views
+- - How to put everything together to make a simple blog site
+
 ## Install or update Node.js:
 
 https://nodejs.org/en
@@ -35,7 +55,7 @@ Type ^C twice
 
 C:\Users\me>
 
-# Open VS Code directly from the cmd terminal
+## Open VS Code directly from the cmd terminal
 
 Open cdm window, cd to the project folder and type 'code .'
 
