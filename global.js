@@ -1,7 +1,7 @@
-// Global objects
+// The Global object and the several methods attached to it
 
 ////////////////////////////////////////////////////////////
-// Available objects inside Nodejs
+// Available methods inside Nodejs Global objetc
 console.log(global);
 
 ////////////////////////////////////////////////////////////
