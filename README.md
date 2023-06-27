@@ -103,3 +103,19 @@ Menu: Terminal > New Terminal
 Make sure you are in the correct directory where the file exists
 
 D:\Workspace_NodeJS\nodejs-playground>node file-name
+
+## Node.js Gobal object
+
+Open a site inside of a browser
+
+More tools > Developer tools or Ctrl + Shift + I
+
+Type 'window' + ENTER and scroll down to see all the methods available
+
+Inside the browser 'window' is the global object. However, inside Nodejs it is not 'window' but 'global.
+
+<p>
+  <img src="https://github.com/siomarapantarotto/nodejs-playground/assets/5893219/d4efc220-73b1-4cb2-a510-fda4c74fccbc" />
+</p>
+
+
