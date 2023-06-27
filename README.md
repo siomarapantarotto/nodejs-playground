@@ -102,4 +102,4 @@ Menu: Terminal > New Terminal
 
 Make sure you are in the correct directory where the file exists
 
-D:\Workspace_NodeJS\nodejs-playground>node <file-name>
+D:\Workspace_NodeJS\nodejs-playground>node file-name
