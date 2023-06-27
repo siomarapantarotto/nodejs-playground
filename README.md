@@ -7,11 +7,11 @@ This repo is my playground to tinker around with a few things:
 - Express
 - MongoDB, a NoSQL database
 
-Node.js is a tool written in C++, which basically wraps the V8 engine, just like web browsers, and lets us write code in JavaScript and share it between the front end and back end of our projects.
+<b>Node.js</b> is a tool written in C++, which basically wraps the V8 engine, just like web browsers, and lets us write code in JavaScript and share it between the front end and back end of our projects.
 
-Express is a lightweight and flexible web application framework in JavaScript that simplifies building server-side applications and APIs with Node.js, handling routing and HTTP requests. 
+<b>Express</b> is a lightweight and flexible web application framework in JavaScript that simplifies building server-side applications and APIs with Node.js, handling routing and HTTP requests. 
 
-MongoDB is a super flexible NoSQL database that is a great fit for certain types of applications where a traditional, structured database might not be the best choice. 
+<b>MongoDB</b> is a super flexible NoSQL database that is a great fit for certain types of applications where a traditional, structured database might not be the best choice. 
 
 Node.js adds more features:
 
@@ -75,11 +75,15 @@ C:\Users\me>
 Open cdm window, cd to the project folder and type 'code .' as follow:
 
 >C:\>D:
+
 D:\>cd Workspace_NodeJS
->D:\Workspace_NodeJS>mkdir nodejs-playground
->D:\Workspace_NodeJS>dir
+
+D:\Workspace_NodeJS>mkdir nodejs-playground
+
+D:\Workspace_NodeJS>dir
 
 <DIR>          .
+
 <DIR>          nodejs-playground
 
                2 pasta(s)   857.655.164.928 bytes disponíveis
@@ -92,3 +96,10 @@ D:\Workspace_NodeJS\nodejs-playground>code .
 [main 2023-06-20T21:37:38.454Z] update#setState idle
 [main 2023-06-20T21:37:39.271Z] [UtilityProcess id: 1, type: extensionHost, pid: ]: creating new [...]
 
+## Run a java script file on VSCode terminal
+
+Menu: Terminal > New Terminal
+
+Make sure you are in the correct directory where the file exists
+
+D:\Workspace_NodeJS\nodejs-playground>node <file-name>
