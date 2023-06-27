@@ -65,50 +65,30 @@ undefined
 ## End Node on cmd terminal
 
 Type ^C twice
-
 >
 (To exit, press Ctrl+C again or Ctrl+D or type .exit)
 >
-
 C:\Users\me>
 
 ## Open VS Code directly from the cmd terminal
 
 Open cdm window, cd to the project folder and type 'code .' as follow:
 
-C:\>D:
-
+>C:\>D:
 D:\>cd Workspace_NodeJS
+>D:\Workspace_NodeJS>mkdir nodejs-playground
+>D:\Workspace_NodeJS>dir
 
-D:\Workspace_NodeJS>mkdir node-crash-course
-
-D:\Workspace_NodeJS>dir
-
- O volume na unidade D é DATA
-
- O Número de Série do Volume é 3675-7DF4
-
- Pasta de D:\Workspace_NodeJS
-
-20/06/2023  17:57    <DIR>          .
-
-19/04/2023  18:16    <DIR>          node-crash-course
-
-20/06/2023  18:20             1.107 node-crash-course-documentation.txt
-
-               1 arquivo(s)          1.107 bytes
+<DIR>          .
+<DIR>          nodejs-playground
 
                2 pasta(s)   857.655.164.928 bytes disponíveis
 
-D:\Workspace_NodeJS>cd node-crash-course
+D:\Workspace_NodeJS>cd nodejs-playground
 
-D:\Workspace_NodeJS\node-crash-course>code .
+D:\Workspace_NodeJS\nodejs-playground>code .
 
 [main 2023-06-20T21:37:38.339Z] [SharedProcess] using utility process
-
 [main 2023-06-20T21:37:38.454Z] update#setState idle
-
-[main 2023-06-20T21:37:39.271Z] [UtilityProcess id: 1, type: extensionHost, pid: ]: creating new... 
-
-[...]
+[main 2023-06-20T21:37:39.271Z] [UtilityProcess id: 1, type: extensionHost, pid: ]: creating new [...]
 
