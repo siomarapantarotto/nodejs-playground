@@ -13,7 +13,7 @@ This repo is my playground to tinker around with a few things:
 
 <b>MongoDB</b> is a super flexible NoSQL database that is a great fit for certain types of applications where a traditional, structured database might not be the best choice. 
 
-Node.js features:
+## Node.js features
 
 - <b>File System Interaction</b>: Node.js enables reading from and writing to files on a computer. It provides convenient APIs for managing file operations, allowing you to manipulate, create, read, and write files seamlessly.
 - <b>Database Connectivity</b>: Node.js facilitates connecting to databases. It offers various database drivers and libraries that allow you to interact with popular databases like MySQL, PostgreSQL, MongoDB, and more. This empowers you to perform database operations, such as querying, inserting, updating, and deleting data, directly from your Node.js applications.
