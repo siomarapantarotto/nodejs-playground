@@ -22,20 +22,28 @@ Node.js adds more features:
 
 ## Content
 
-- How to install Node & use it to run JavaScript
-- How to install Node & use it to run JavaScript
-- How to read & write files on the computer
-- How to create a server using Node.jjs to create a website
+- How to install or update Node.js and use it to run JavaScript
+- How to check installation or update
+- How to start Node on cmd terminal
+- How to end Node on cmd terminal
+- How to open VSCode directly from Node terminal
+- How to run a java script file on VSCode terminal
+- How to use Node Gobal object methods
+
+<!--
+- How to read and write files on the computer
+- How to create a server using Node.js to create a website
 - How to create an Express app / website
-- How to use the NoSQL database MongDB
+- How to use the NoSQL database MongoDB
 - How to use template engines to create HTML views
 - How to put everything together to make a simple blog site
+-->
 
-## Install or update Node.js:
+## Install or update Node.js
 
 https://nodejs.org/en
 
-## Check installation or update:
+## Check installation or update
 
 C:\Users\me>node -v
 
