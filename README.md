@@ -4,15 +4,18 @@ This repo is my playground to tinker around with a few things:
 
 - Node.js
 - JavaScript
+<!--
 - Express
 - MongoDB, a NoSQL database
+-->
 
 <b>Node.js</b> is a tool written in C++, which basically wraps the V8 engine, just like web browsers, and lets us write code in JavaScript and share it between the front end and back end of our projects.
 
+<!--
 <b>Express</b> is a lightweight and flexible web application framework in JavaScript that simplifies building server-side applications and APIs with Node.js, handling routing and HTTP requests. 
 
 <b>MongoDB</b> is a super flexible NoSQL database that is a great fit for certain types of applications where a traditional, structured database might not be the best choice. 
-
+-->
 ## Node.js features
 
 - <b>File System Interaction</b>: Node.js enables reading from and writing to files on a computer. It provides convenient APIs for managing file operations, allowing you to manipulate, create, read, and write files seamlessly.
@@ -34,6 +37,10 @@ This repo is my playground to tinker around with a few things:
 - How to open VSCode directly from Node terminal
 - How to run a java script file on VSCode terminal
 - How to use Node Gobal object methods
+- How to use modules and require to import files
+- How to read, write, and delete file system
+- How to create and remove directories
+- How to use streams & buffers
 
 <!--
 - How to read and write files on the computer
@@ -130,5 +137,14 @@ Inside the browser 'window' is the global object. However, inside Nodejs it is n
 <p>
   <img src="https://github.com/siomarapantarotto/nodejs-playground/assets/5893219/d4efc220-73b1-4cb2-a510-fda4c74fccbc" />
 </p>
+
+## Modules and require to import files
+TODO
+## Read, write, and delete files with built in file system module
+TODO
+## Create and remove directories
+TODO
+## Streams & buffers
+TODO
 
 
