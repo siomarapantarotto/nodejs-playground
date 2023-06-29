@@ -126,6 +126,21 @@ D:\Workspace_NodeJS\nodejs-playground>node file-name
 
 ## Node.js Gobal object
 
+The Global object refers to the global scope object that represents the top-level scope of a Node.js module or application. It serves as the container for various global properties, functions, and objects that are available throughout the entire runtime of a Node.js application.
+
+Unlike the browser environment, where the global scope is represented by the window object, Node.js uses the global object to provide a similar functionality. The global object in Node.js provides access to several important properties and functions, including: 
+
+- global.console: Provides access to the console object for logging and debugging purposes. It includes methods like log(), error(), warn(), etc.
+- global.process: Represents the Node.js process and provides information and control over the current process. It includes properties and methods like argv (command-line arguments), env (environment variables), cwd() (current working directory), exit() (exit the process), etc.
+- global.setTimeout and global.setInterval: Functions used for scheduling tasks to be executed after a specified delay or at regular intervals, respectively.
+- global.require: A function used to import and use modules in Node.js. It is similar to the require function available within individual modules.
+- global.Buffer: A constructor function provided by Node.js to create and manipulate binary data buffers.
+- global.__filename and global.__dirname: Constants that provide the path and directory name of the current module.
+  
+The properties and functions available on the global object in Node.js are accessible without explicitly referencing 'global.' because they are automatically added to the global scope by Node.js. For example, console.log() can be used directly without explicitly referencing global.console.
+
+It's considered good practice to avoid using the global object extensively. Instead use the appropriate module system and local variables within individual modules. Using the global scope excessively can lead to potential conflicts and make code harder to maintain and test.
+
 Open a site inside of a browser
 
 More tools > Developer tools or Ctrl + Shift + I
