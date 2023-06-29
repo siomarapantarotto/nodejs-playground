@@ -2,8 +2,8 @@
 const people = ['Larry', 'Bill', 'James', 'Elon']
 const ages = [60, 65, 70, 50]
 
-// Log those to console
-console.log('\nInside people file:')
+// Log people and ages to console
+console.log('\nInside people.js file:')
 console.log(people)
 console.log(ages)
 
@@ -16,15 +16,24 @@ Inside modules.js logging xyz:
 hello
 */
 
-// module.exports = 'hello';   // xyz will be 'hello' at first
+//cmodule.exports = 'hello';   // xyz will be 'hello' at first
 
 //module.exports = people;
 
+// Exporting with different names
 //module.exports = {
-    //thePeople: people,    // names don't need to match
-    //theAges: theAges      // names don't need to match
-
+//    thePeople: people,    // names don't need to match
+//    theAges: theAges      // names don't need to match
 //}
 
-// using the same name the code is cleaner
+// Exporting with same names
 module.exports = {people, ages}
+
+/*
+Result:
+D:\Workspace_NodeJS\nodejs-playground>node modules-and-require/people 
+
+Inside people.js file:
+[ 'Larry', 'Bill', 'James', 'Elon' ]
+[ 60, 65, 70, 50 ]
+*/
