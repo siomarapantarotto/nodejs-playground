@@ -145,6 +145,6 @@ TODO
 ## Create and remove directories
 TODO
 ## Streams & buffers
-TODO
+Allow to start using data before it has finished loading
 
 
