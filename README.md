@@ -126,28 +126,26 @@ D:\Workspace_NodeJS\nodejs-playground>node file-name
 
 ## Node.js Gobal object
 
-The Global object refers to the global scope object that represents the top-level scope of a Node.js module or application. It serves as the container for various global properties, functions, and objects that are available throughout the entire runtime of a Node.js application.
+The Global object refers to the <b>global scope object that represents the top-level scope of a Node.js module or application</b>. It serves as the <b>container for various global properties, functions, and objects that are available throughout the entire runtime of a Node.js application</b>.
 
-Unlike the browser environment, where the global scope is represented by the window object, Node.js uses the global object to provide a similar functionality. The global object in Node.js provides access to several important properties and functions, including: 
+The global object in Node.js provides access to several important properties and functions, including: 
 
-- global.console: Provides access to the console object for logging and debugging purposes. It includes methods like log(), error(), warn(), etc.
-- global.process: Represents the Node.js process and provides information and control over the current process. It includes properties and methods like argv (command-line arguments), env (environment variables), cwd() (current working directory), exit() (exit the process), etc.
-- global.setTimeout and global.setInterval: Functions used for scheduling tasks to be executed after a specified delay or at regular intervals, respectively.
-- global.require: A function used to import and use modules in Node.js. It is similar to the require function available within individual modules.
-- global.Buffer: A constructor function provided by Node.js to create and manipulate binary data buffers.
-- global.__filename and global.__dirname: Constants that provide the path and directory name of the current module.
+- <b>global.console</b>: Provides access to the console object for logging and debugging purposes. It includes methods like log(), error(), warn(), etc.
+- <b>global.process</b>: Represents the Node.js process and provides information and control over the current process. It includes properties and methods like argv (command-line arguments), env (environment variables), cwd() (current working directory), exit() (exit the process), etc.
+- <b>global.setTimeout and global.setInterval</b>: Functions used for scheduling tasks to be executed after a specified delay or at regular intervals, respectively.
+- <b>global.require</b>: A function used to import and use modules in Node.js. It is similar to the require function available within individual modules.
+- <b>global.Buffer</b>: A constructor function provided by Node.js to create and manipulate binary data buffers.
+- <b>global.__filename and global.__dirname</b>: Constants that provide the path and directory name of the current module.
   
 The properties and functions available on the global object in Node.js are accessible without explicitly referencing 'global.' because they are automatically added to the global scope by Node.js. For example, console.log() can be used directly without explicitly referencing global.console.
 
-It's considered good practice to avoid using the global object extensively. Instead use the appropriate module system and local variables within individual modules. Using the global scope excessively can lead to potential conflicts and make code harder to maintain and test.
+It's considered <b>good practice to avoid using the global object extensively</b>. Instead use the appropriate module system and local variables within individual modules. Using the global scope excessively can lead to potential conflicts and make code harder to maintain and test.
 
-Open a site inside of a browser
+Unlike the browser environment, where the global scope is represented by the <b>window object</b>, Node.js uses the <b>global object</b> to provide a similar functionality.
 
-More tools > Developer tools or Ctrl + Shift + I
-
-Type 'window' + ENTER and scroll down to see all the methods available
-
-Inside the browser 'window' is the global object. However, inside Nodejs it is not 'window' but 'global.
+- Open any site inside of a browser
+- Choose more tools > Developer tools or Ctrl + Shift + I
+- Type 'window' + ENTER and scroll down to see all the methods available
 
 <p>
   <img src="https://github.com/siomarapantarotto/nodejs-playground/assets/5893219/d4efc220-73b1-4cb2-a510-fda4c74fccbc" />
