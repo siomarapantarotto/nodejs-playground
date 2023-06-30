@@ -19,28 +19,34 @@ This repo is my playground to tinker around with a few things:
 ## Node.js features
 
 - <b>File System Interaction</b>: Node.js enables reading from and writing to files on a computer. It provides convenient APIs for managing file operations, allowing you to manipulate, create, read, and write files seamlessly.
+
 - <b>Database Connectivity</b>: Node.js facilitates connecting to databases. It offers various database drivers and libraries that allow you to interact with popular databases like MySQL, PostgreSQL, MongoDB, and more. This empowers you to perform database operations, such as querying, inserting, updating, and deleting data, directly from your Node.js applications.
+
 - <b>Server Capabilities</b>: Node.js can serve as a powerful server for content delivery. It allows you to create web servers and handle HTTP requests and responses efficiently. You can build web applications, APIs, or serve static files with ease, making Node.js an excellent choice for server-side development.
+
 - <b>Networking</b>: Node.js allows you to create networking applications such as web servers, chat servers, real-time applications, and more. Its event-driven architecture and non-blocking I/O make it well-suited for handling concurrent connections and providing efficient network communication.
+
 - <b>Package Management</b>: Node.js has a robust package ecosystem called npm (Node Package Manager) that allows developers to easily find, install, and manage dependencies for their projects. It provides access to thousands of reusable libraries and modules, accelerating development and fostering code reuse.
+
 - <b>Command-line Tools</b>: Node.js can be used to create command-line tools and scripts, making it a versatile platform for automation, build processes, and system administration tasks. It provides a rich set of APIs and tools to interact with the file system, execute commands, parse command-line arguments, and more.
+
 - <b>Real-time Applications</b>: With the help of libraries like Socket.IO, Node.js excels in building real-time applications such as chat applications, collaboration tools, and multiplayer games. Its event-driven nature enables efficient bidirectional communication between clients and servers.
+
 - <b>Streaming</b>: Node.js supports streaming, which allows for efficient processing of large data sets by consuming and producing data in small chunks. This is especially useful for handling file uploads and downloads, processing large datasets, and working with media content.
+
 - <b>Scalability</b>: Node.js is known for its scalability due to its non-blocking, event-driven architecture. It can handle a large number of concurrent connections with relatively low resource usage, making it suitable for building highly scalable applications that can handle heavy loads.
 
 ## Content
 
-- How to install or update Node.js and use it to run JavaScript
-- How to check installation or update
-- How to start Node on cmd terminal
-- How to end Node on cmd terminal
-- How to open VSCode directly from Node terminal
-- How to run a java script file on VSCode terminal
-- How to use Node Gobal object methods
-- How to use modules and require to import files
-- How to read, write, and delete file system
-- How to create and remove directories
-- How to use streams & buffers
+- Install or update Node.js and use it to run JavaScript
+- Check installation or update
+- Start & End Node on cmd terminal
+- Open VSCode directly from Node terminal
+- Run a java script file on VSCode terminal
+- Node Gobal object methods
+- Modules and require to import files
+- File System module to work with files and directories
+- Streams & buffers to consume data before it has finished loading
 
 <!--
 - How to read and write files on the computer
@@ -63,8 +69,9 @@ v18.16.0
 
 If you updated the version, close cmd, open it again and check if the new version was installed successfully.
 
-## Start Node on cmd terminal
+## Start & End Node on cmd terminal
 
+### Start
 C:\Users\me>node
 
 Welcome to Node.js v18.16.0.
@@ -82,7 +89,7 @@ undefined
 > 
 'John'
 
-## End Node on cmd terminal
+### End
 
 Type ^C twice
 >
@@ -131,33 +138,37 @@ The Global object refers to the <b>global scope object that represents the top-l
 The global object in Node.js provides access to several important properties and functions, including: 
 
 - <b>global.console</b>: Provides access to the console object for logging and debugging purposes. It includes methods like log(), error(), warn(), etc.
+
 - <b>global.process</b>: Represents the Node.js process and provides information and control over the current process. It includes properties and methods like argv (command-line arguments), env (environment variables), cwd() (current working directory), exit() (exit the process), etc.
+
 - <b>global.setTimeout and global.setInterval</b>: Functions used for scheduling tasks to be executed after a specified delay or at regular intervals, respectively.
+
 - <b>global.require</b>: A function used to import and use modules in Node.js. It is similar to the require function available within individual modules.
+
 - <b>global.Buffer</b>: A constructor function provided by Node.js to create and manipulate binary data buffers.
+
 - <b>global.__filename and global.__dirname</b>: Constants that provide the path and directory name of the current module.
   
-The properties and functions available on the global object in Node.js are accessible without explicitly referencing 'global.' because they are automatically added to the global scope by Node.js. For example, console.log() can be used directly without explicitly referencing global.console.
+The properties and functions available on the global object in Node.js are <b>accessible without explicitly referencing 'global.'</b> because they are automatically added to the global scope by Node.js.
 
-It's considered <b>good practice to avoid using the global object extensively</b>. Instead use the appropriate module system and local variables within individual modules. Using the global scope excessively can lead to potential conflicts and make code harder to maintain and test.
+It's considered <b>good practice to avoid using the global object extensively</b>. Instead use the appropriate module system and local variables within individual modules. Using the global scope excessively <b>can lead to potential conflicts and make code harder to maintain and test</b>.
 
 Unlike the browser environment, where the global scope is represented by the <b>window object</b>, Node.js uses the <b>global object</b> to provide a similar functionality.
 
 - Open any site inside of a browser
-- Choose more tools > Developer tools or Ctrl + Shift + I
-- Type 'window' + ENTER and scroll down to see all the methods available
+- On the 3 dots, choose More tools > Developer tools or Ctrl + Shift + I
+- Type 'window' + ENTER and scroll down to see all that is available
 
 <p>
   <img src="https://github.com/siomarapantarotto/nodejs-playground/assets/5893219/d4efc220-73b1-4cb2-a510-fda4c74fccbc" />
 </p>
 
 ## Modules and require to import files
-TODO
-## Read, write, and delete files with built in file system module
-TODO
-## Create and remove directories
-TODO
-## Streams & buffers
-Allow to start using data before it has finished loading
 
+TODO
+## File System module to work with files and directories
+
+TODO
+## Streams & buffers to consume data before it has finished loading
+TODO
 
