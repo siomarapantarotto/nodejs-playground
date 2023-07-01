@@ -17,5 +17,5 @@ readStream.on('data', (chunk) => {
 })
  */
 
-// Piping
+// Piping does the same as above
 readStream.pipe(writeStream)

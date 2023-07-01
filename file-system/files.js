@@ -3,8 +3,8 @@ const fs = require('fs')
 
 /**
  * Reading file takes 2 parameters:
- *  1: relative path to the file
- *  2: callback function that will be fired after 1 is complete
+ *  #1: relative path to the file
+ *  #2: callback function that will be fired after #1 is complete
  * Reading is assyncronous - takes some time to read the file
  */
  
@@ -21,9 +21,9 @@ console.log('last line - logged after reading file - printed before')
 
 /**
  * Writing files takes 3 parameters:
- *  1: relative path to the file
- *  2: new content that will replace the content of the file
- *  3: callback function that will be fired after 2 is complete
+ *  #1: relative path to the file
+ *  #2: new content that will replace the content of the file
+ *  #3: callback function that will be fired after #2 is complete
  * Writing is assyncronous - takes some time to write to the file
  */
 
@@ -40,8 +40,8 @@ fs.writeFile('./docs/doc2.txt', 'Hello World Again!', () => {
 /**
  * Create and delete directories
  * Takes 2 parameters:
- *  1: relative path to the directory
- *  2: callback function
+ *  #1: relative path to the directory
+ *  #2: callback function
  */
  
 if (!fs.existsSync('./assets')) {
@@ -64,8 +64,8 @@ if (!fs.existsSync('./assets')) {
 /**
  * Deleting files
  * Takes 2 parameters:
- *  1: relative path to the file
- *  2: callback function
+ *  #1: relative path to the file
+ *  #2: callback function
  * Create file delete-me1.txt inside garbage folder before testing
  */
 
