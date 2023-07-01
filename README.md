@@ -39,14 +39,15 @@ This repo is my playground to tinker around with a few things:
 ## Content
 
 - Install or update Node.js and use it to run JavaScript
-- Check installation or update
+- Check Node installation or update
 - Start & End Node on cmd terminal
 - Open VSCode directly from Node terminal
 - Run a java script file on VSCode terminal
-- Node Gobal object methods
+- Node Gobal Object with properties, functions, and objects
 - Modules and require to import files
 - File System module to work with files and directories
-- Streams & buffers to consume data before it has finished loading
+- Streams & Buffers to consume data before it has finished loading
+- Clients & Servers
 
 <!--
 - How to read and write files on the computer
@@ -131,7 +132,7 @@ Make sure you are in the correct directory where the file exists
 
 D:\Workspace_NodeJS\nodejs-playground>node file-name
 
-## Node.js Gobal object
+## Node Gobal Object with properties, functions, and objects
 
 The Global object refers to the <b>global scope object that represents the top-level scope of a Node.js module or application</b>. It serves as the <b>container for various global properties, functions, and objects that are available throughout the entire runtime of a Node.js application</b>.
 
@@ -169,6 +170,9 @@ TODO
 ## File System module to work with files and directories
 
 TODO
-## Streams & buffers to consume data before it has finished loading
+## Streams & Buffers to consume data before it has finished loading
+TODO
+
+## Clients & Servers
 TODO
 
