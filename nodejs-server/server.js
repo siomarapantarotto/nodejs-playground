@@ -4,18 +4,27 @@
  * What you call it is up to you
  */
  
-// First step: require the node module 'http'
+// Request Step #1: require the node module 'http'
 const http = require('http')
 
-// Second step: create the server, that can be stored in a
+// Request Step #2: create the server, that can be stored in a
 // constant if you want, but there is no need to be stored
 // The createServer method takes in a callback function that
 // is gonna run every time a request comes in to the server
 const server = http.createServer((req, res) => {
-    console.log('request made')
+    //console.log('request made')
+    //console.log(req)
+    console.log(req.url, req.method)
+
+    // Response Step #1: set header content type being sent back to the browser
+    res.setHeader('content-Type', 'text/plain')
+    // Response Step #2: write the content to be sent back to the browser
+    res.write('Hello World!')
+    // Response Step #3: end the response to send the content to the browser
+    res.end()
 })
 
-// Third step: invoke the listener passing the port number,
+// Request Step #3: invoke the listener passing the port number,
 // hostname and a function that fires when the server starts listening
 // The default value is localhost but it is explicitly named here 
 // localhost points to IP 127.0.0.1 that points back to your computer
