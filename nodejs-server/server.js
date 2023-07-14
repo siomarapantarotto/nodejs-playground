@@ -17,9 +17,13 @@ const server = http.createServer((req, res) => {
     console.log(req.url, req.method)
 
     // Response Step #1: set header content type being sent back to the browser
-    res.setHeader('content-Type', 'text/plain')
+    //res.setHeader('content-Type', 'text/plain')
+    res.setHeader('content-Type', 'text/html')
     // Response Step #2: write the content to be sent back to the browser
-    res.write('Hello World!')
+    //res.write('Hello World!')
+    res.write('<head><link rel="stylesheet" href="#"></head>')
+    res.write('<p>Hello World!</p>')
+    res.write('<p>Hello World Again!</p>')
     // Response Step #3: end the response to send the content to the browser
     res.end()
 })
