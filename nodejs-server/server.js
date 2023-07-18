@@ -6,6 +6,7 @@
  
 // Request Step #1: require the node module 'http'
 const http = require('http')
+const fs = require('fs')
 
 // Request Step #2: create the server, that can be stored in a
 // constant if you want, but there is no need to be stored
@@ -19,13 +20,43 @@ const server = http.createServer((req, res) => {
     // Response Step #1: set header content type being sent back to the browser
     //res.setHeader('content-Type', 'text/plain')
     res.setHeader('content-Type', 'text/html')
+
+    let path = './views/'
+    switch(req.url){
+        case '/':
+            path += 'index.html'
+            break
+        case '/about':
+            path += 'about.html'
+            break
+        default:
+            path += '404.html'
+            break
+    }
+    
     // Response Step #2: write the content to be sent back to the browser
     //res.write('Hello World!')
+    // Override original head
     res.write('<head><link rel="stylesheet" href="#"></head>')
-    res.write('<p>Hello World!</p>')
-    res.write('<p>Hello World Again!</p>')
+    
+    // Return HTML code
+    //res.write('<p>Hello World!</p>')
+    //res.write('<p>Hello World Again!</p>')
+
+    // Return HTML page
+    //fs.readFile('./views/index.html', (err, data) => {
+    fs.readFile(path, (err, data) => {
+        if (err) {
+            console.log(err)
+            res.end()
+        } else {
+            //res.write(data)
+            res.end(data)
+        }
+    })
+
     // Response Step #3: end the response to send the content to the browser
-    res.end()
+    //res.end()
 })
 
 // Request Step #3: invoke the listener passing the port number,
