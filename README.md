@@ -48,6 +48,7 @@ This repo is my playground to tinker around with a few things:
 - File System module to work with files and directories
 - Streams & Buffers to consume data before it has finished loading
 - Clients & Servers
+- NPM - Node Package Manager
 
 <!--
 - How to read and write files on the computer
@@ -176,3 +177,57 @@ TODO
 ## Clients & Servers
 TODO
 
+## NPM - Node Package Manager
+
+https://npmjs.com
+
+It is automatically installed when Node is installed. It is a tool to install,
+update and remove Node packages onto the computer directly or to individual projects.
+
+### Installing globally:
+
+npm install -g <package-name>
+
+- nodemon: automatically restarts the node application when file changes in the directory are detected. Does not require any additional changes to the code or method of development. It is a replacement wrapper for node. Usage: replace the word node on the command line when executing the script.
+
+package.json File - keeps track of any packages that are added to the projectand other things too.
+
+D:\Workspace_NodeJS\nodejs-playground\nodejs-server> npm init
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodejs-server)
+version: (1.0.0)                                                                                                                                                  
+description:                                                                                                                                                   
+entry point: (server.js)                                                                                                                                          
+test command:                                                                                                                                                     
+git repository:                                                                                                                                                   
+keywords:                                                                                                                                                         
+author:                                                                                                                                                           
+license: (ISC)                                                                                                                                                    
+About to write to D:\Workspace_NodeJS\nodejs-playground\nodejs-server\package.json:
+
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+Is this OK? (yes)
+
+### Installing packages locally 
