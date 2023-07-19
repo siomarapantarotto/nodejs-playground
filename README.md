@@ -210,8 +210,8 @@ description:
 entry point: (server.js)                                                                                                                                          
 test command:                                                                                                                                                     
 git repository:                                                                                                                                                   
-keywords:                                                                                                                                                         
-author:                                                                                                                                                           
+keywords:                                                                                                                                                       
+author:                                                                                                                                                         
 license: (ISC)                                                                                                                                                    
 About to write to D:\Workspace_NodeJS\nodejs-playground\nodejs-server\package.json:
 
@@ -230,4 +230,10 @@ About to write to D:\Workspace_NodeJS\nodejs-playground\nodejs-server\package.js
 
 Is this OK? (yes)
 
-### Installing packages locally 
+### Installing packages locally
+
+node_modules folder is created with all local packages
+
+.gitignore file avoid uploading to GitHub all the local packages
+
+When cloning this repo, don't forget to run '' to create node_modules folder and avoid enpm installrror
