@@ -1,3 +1,9 @@
+/**
+ * This app.js file does the same as server.js file but it 
+ * implements the server with the express package which makes 
+ * the code much more clean, efficient and easy to maintain. 
+ */
+
 const express = require('express'); // returns a function that is stored at express
 
 // Express app
