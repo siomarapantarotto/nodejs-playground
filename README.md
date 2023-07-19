@@ -232,8 +232,10 @@ Is this OK? (yes)
 
 ### Installing packages locally
 
+npm install <package-name>
+
 node_modules folder is created with all local packages
 
 .gitignore file avoid uploading to GitHub all the local packages
 
-When cloning this repo, don't forget to run '' to create node_modules folder and avoid enpm installrror
+When cloning this repo, don't forget to run 'npm install' to create node_modules folder and avoid error
