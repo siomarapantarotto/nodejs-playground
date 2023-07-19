@@ -22,12 +22,12 @@ const server = http.createServer((req, res) => {
     const num = _.random(0, 20)
     console.log(num)
 
-    const greet = _.once(() => {
+    const greet = _.once(() => {    // did not work well
         console.log('hello')
     })
 
-    greet()
-    greet()
+    greet() // running first time
+    greet() // running second time, but should not
 
     // Response Step #1: set header content type being sent back to the browser
     //res.setHeader('content-Type', 'text/plain')
