@@ -7,6 +7,7 @@
 // Request Step #1: require the node module 'http'
 const http = require('http')
 const fs = require('fs')
+const _ = require('lodash') // It can be called anything (_ or lo, for example)
 
 // Request Step #2: create the server, that can be stored in a
 // constant if you want, but there is no need to be stored
@@ -15,7 +16,18 @@ const fs = require('fs')
 const server = http.createServer((req, res) => {
     //console.log('request made')
     //console.log(req)
-    console.log(req.url, req.method)
+    //console.log(req.url, req.method)
+
+    // lodash
+    const num = _.random(0, 20)
+    console.log(num)
+
+    const greet = _.once(() => {
+        console.log('hello')
+    })
+
+    greet()
+    greet()
 
     // Response Step #1: set header content type being sent back to the browser
     //res.setHeader('content-Type', 'text/plain')
