@@ -189,8 +189,11 @@ update and remove Node packages onto the computer directly or to individual proj
 npm install -g <package-name>
 
 - nodemon: automatically restarts the node application when file changes in the directory are detected. Does not require any additional changes to the code or method of development. It is a replacement wrapper for node. Usage: replace the word node on the command line when executing the script.
+- npm install -g nodemon
 
-package.json File - keeps track of any packages that are added to the projectand other things too.
+### package.json File
+
+keeps track of any packages that are added to the project and other things too.
 
 D:\Workspace_NodeJS\nodejs-playground\nodejs-server> npm init
 
