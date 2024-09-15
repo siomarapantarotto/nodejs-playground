@@ -1,10 +1,16 @@
 /**
- * How to run a javascript file directly on a computer using Nodejs server?
- * Make sure you are in the correct directory where the file exists
- * Choose Terminal/New Terminal on VSCode
- * No need to write the file with extension (run-js-file.js)
- * D:\Workspace_NodeJS\nodejs-playground>node run-js-file
+ * How to run a JavaScript file directly on a computer using Node.js?
+ * 
+ * 1. Make sure you are in the correct directory where the file exists.
+ * 2. Open the terminal in VSCode (choose Terminal -> New Terminal).
+ * 3. Use the following command to run the file:
+ *    D:\Workspace_NodeJS\nodejs-playground>node run-js-file.js
+ * 
+ * Notes:
+ * - You must prefix the command with 'node' to tell the terminal to execute the JavaScript file using Node.js.
+ * - You can omit the `.js` extension (e.g., node run-js-file) if desired.
  */
+
 
 // Define variables
 const firstName = 'Siomara'
