@@ -7,8 +7,9 @@
  *    D:\Workspace_NodeJS\nodejs-playground>node run-js-file.js
  * 
  * Notes:
- * - You must prefix the command with 'node' to tell the terminal to execute the JavaScript file using Node.js.
- * - You can omit the `.js` extension (e.g., node run-js-file) if desired.
+ * - You must prefix the command with 'node' to tell the terminal to execute the script file.
+ * - You can omit the `.js` extension (e.g., node run-js-file) if desired:
+ *   D:\Workspace_NodeJS\nodejs-playground>node run-js-file
  */
 
 
