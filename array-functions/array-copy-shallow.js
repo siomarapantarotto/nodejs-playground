@@ -1,27 +1,29 @@
-// Initialize user profiles
-const userProfiles = [
-    { id: 1, name: "Alice", status: "inactive" },
-    { id: 2, name: "Megan", status: "inactive" },
-    { id: 3, name: "David", status: "inactive" }
-];
 
-// Display original user profiles
-console.log("Original Profiles:", userProfiles);
+/**
+ * Shallow Copy Example
+ * A shallow copy only copies the references to the objects inside the array, 
+ * so modifying the objects in the shallow copy will also affect the original array.
+ */
 
-// Create a copy with the spread operator
-const sessionProfiles = [...userProfiles];
+// Initial array of savings accounts
+let savingsAccounts = [
+    { number: "001", owner: "Charlie", balance: 1000 },
+    { number: "002", owner: "Alice", balance: 2000 },
+    { number: "003", owner: "Bob", balance: 3000 }
+  ];
+   
+  // Create a shallow copy using the spread operator
+  let shallowCopy = [...savingsAccounts];
 
-// Display session profiles
-console.log("Session Profiles:", sessionProfiles);
-
-// Mark session users as active
-console.log("\nMark session users as active using forEach()...\n");
-sessionProfiles.forEach(profile => {
-    profile.status = "active";
-});
-
-// Display session profiles
-console.log("Session Profiles:", sessionProfiles);
-
-// Display user profiles
-console.log("Original Profiles:", userProfiles);
+  // Display the arrays
+  console.log("Initial Array (Before Shallow Copy Modification):", savingsAccounts);
+  console.log("Shallow Copy (Before balance modification):", shallowCopy);
+  
+  // Apply a 2% correction to the balance of the shallow copy
+  shallowCopy.forEach(account => {
+    account.balance *= 1.02; // Increase balance by 2%
+  });
+  
+  // Display the arrays
+  console.log("Initial Array (After Shallow Copy Modification):", savingsAccounts);
+  console.log("Shallow Copy (After balance modification):", shallowCopy);
