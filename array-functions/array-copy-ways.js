@@ -156,11 +156,14 @@ console.log("original ATMs:\t", atmMachines);
  * Notes:
  *  
  * 1) In this specific case, the array contains strings (primitives), so shallow copy 
- * vs deep copy doesn’t make much difference because primitives are copied by value. 
+ * vs deep copy doesn’t make much difference because primitives are copied by value 
+ * (not by reference). 
  * 
  * 2) The key difference between shallow and deep copies comes into play when the array 
- * contains complex objects or nested arrays.
+ * contains complex objects or nested arrays. So, be cautious when copying arrays with
+ * complex objects or nested arrays.
  * 
- * 3) The modified copy arrays are shown to demonstrate that the original array remains
- * unchanged after modifying the copies.
+ * 3) The modified copy arrays are shown to demonstrate that in this specific case,
+ * the original array remains unchanged after modifying the copies (shallow or deep)
+ * because the array contains strings (primitives).
  */
